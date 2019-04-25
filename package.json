@@ -1,0 +1,14 @@
+{
+  "name": "apollo-minimal-memleak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastian Nowicki <sebnow@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "server": "node --inspect index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.2.1"
+  }
+}
